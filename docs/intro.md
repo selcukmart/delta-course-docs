@@ -11,8 +11,8 @@ This documentation is to explain ONLINEKURUM API.
 
   - Restfull Knowledge
   - OAUTH2
-  - Some PHP
+  - Least One Language
 
 ## Generate a new Client API
 
-The request url, args, codes and results are given in the system.
+The request url, args, codes and results are given in the docs.
