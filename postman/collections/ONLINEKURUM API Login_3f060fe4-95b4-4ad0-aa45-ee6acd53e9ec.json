@@ -1,0 +1,74 @@
+{
+    "info": {
+        "_postman_id": "2eec9b37-d8fc-4ae2-a049-d23059a53d03",
+        "name": "ONLINEKURUM API Login",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "http://galata-egitim.delta-course.net/api/o-auth2/login",
+            "id": "d5195b3b-864a-4124-95e7-3795149c218c",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "user",
+                            "value": "api@delta-course.net",
+                            "type": "text"
+                        },
+                        {
+                            "key": "secret",
+                            "value": "001234",
+                            "type": "text"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "http://galata-egitim.delta-course.net/api/o-auth2/login",
+                    "protocol": "http",
+                    "host": [
+                        "galata-egitim",
+                        "delta-course",
+                        "net"
+                    ],
+                    "path": [
+                        "api",
+                        "o-auth2",
+                        "login"
+                    ]
+                },
+                "description": "## Where are `Login Credentials`\n\nUsername and passwords are defined in `users`. User type `MUST` be `API user`.\n\n**_For Example:_**\n\nIt can be found on the menu `Users` in `Delta Course Automation Admin Panel`. User created by panel credentials are user's `API credentials`.\n\nCredentials are only **username** and **password** as `user` and `secret`"
+            },
+            "response": []
+        }
+    ],
+    "auth": {
+        "type": "basic",
+        "basic": [
+            {
+                "key": "username",
+                "value": "<Basic Auth Username>",
+                "type": "string"
+            },
+            {
+                "key": "password",
+                "value": "<Basic Auth Password>",
+                "type": "string"
+            }
+        ]
+    },
+    "variable": [
+        {
+            "id": "35d08b52-5a8a-4a1d-b5b6-d8c3eb7b6f72",
+            "key": "baseUrl",
+            "value": "localhost:3000",
+            "type": "string"
+        }
+    ]
+}

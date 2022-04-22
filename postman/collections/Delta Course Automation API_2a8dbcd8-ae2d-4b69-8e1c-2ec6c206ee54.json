@@ -1,0 +1,161 @@
+{
+    "info": {
+        "_postman_id": "d06be236-935c-4ebc-afb3-d787cef6ec32",
+        "name": "Delta Course Automation API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "http://galata-egitim.delta-course.net/api/student/lists?from=10.10.2020&to&per_page=1&current_page=1",
+            "id": "da3ea7c3-6310-4363-9645-758526190405",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "AB1bl7iPaeN7fSUD94b48a00iN1Fq7H9uZkOkE94b48a00EqBY33d2M8xVl7nFEM8JXoapsV37e153c9fOvIi4KncwgE7SAuwmvYpiK3Mv0DIBAEqGYGjQ0M7vLM1qC0Toh7XDPopGa2iqVf7xk37e153c9fDu0X3Ici37e153c9fNQOo5jhPdY94b48a00JYuR6dl94b48a00OXL5Rzl3KTEgMPnYmBqwukUoxWIEvFgHWEGWL0uMiApLpIelU97b144d9e",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://galata-egitim.delta-course.net/api/student/lists?from=10.10.2020&to&per_page=1&current_page=1",
+                    "protocol": "http",
+                    "host": [
+                        "galata-egitim",
+                        "delta-course",
+                        "net"
+                    ],
+                    "path": [
+                        "api",
+                        "student",
+                        "lists"
+                    ],
+                    "query": [
+                        {
+                            "key": "from",
+                            "value": "10.10.2020",
+                            "description": "register today 00:00/ unixtimestamp"
+                        },
+                        {
+                            "key": "to",
+                            "value": null,
+                            "description": "register  today 23:59/ unixtimestamp"
+                        },
+                        {
+                            "key": "per_page",
+                            "value": "1",
+                            "description": "min 1 max 25 (optional default=10)"
+                        },
+                        {
+                            "key": "current_page",
+                            "value": "1",
+                            "description": "min 1 (optional default=1)"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "http://galata-egitim.delta-course.net/api/student/lists?from=10.10.2020&to=1649721600&per_page=15&student_lists=422",
+            "id": "c87bfaef-a5f3-4743-9acc-4b76b11e3639",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "AB1bl7iPaeN7fSUD94b48a00iN1Fq7H9uZkOkE94b48a00EqBY33d2M8xVl7nFEM8JXoapsV37e153c9fOvIi4KncwgE7SAuwmvYpiK3Mv0DIBAEqGYGjQ0M7vLM1qC0Toh7XDPopGa2iqVf7xk37e153c9fDu0X3Ici37e153c9fNQOo5jhPdY94b48a00JYuR6dl94b48a00OXL5Rzl3KTEgMPnYmBqwukUoxWIEvFgHWEGWL0uMiApLpIelU97b144d9e",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://galata-egitim.delta-course.net/api/student/lists?from=10.10.2020&to=1649721600&per_page=15&student_lists=422",
+                    "protocol": "http",
+                    "host": [
+                        "galata-egitim",
+                        "delta-course",
+                        "net"
+                    ],
+                    "path": [
+                        "api",
+                        "student",
+                        "lists"
+                    ],
+                    "query": [
+                        {
+                            "key": "from",
+                            "value": "10.10.2020"
+                        },
+                        {
+                            "key": "to",
+                            "value": "1649721600"
+                        },
+                        {
+                            "key": "per_page",
+                            "value": "15"
+                        },
+                        {
+                            "key": "student_lists",
+                            "value": "422"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ],
+    "auth": {
+        "type": "bearer",
+        "bearer": [
+            {
+                "key": "token",
+                "value": "AB1bl7iPaeN7fSUD94b48a00iN1Fq7H9uZkOkE94b48a00EqBY33d2M8xVl7nFEM8JXoapsV37e153c9fOvIi4KncwgE7SAuwmvYpiK3Mv0DIBAEqGYGjQ0M7vLM1qC0Toh7XDPopGa2iqVf7xk37e153c9fDu0X3Ici37e153c9fNQOo5jhPdY94b48a00JYuR6dl94b48a00OXL5Rzl3KTEgMPnYmBqwukUoxWIEvFgHWEGWL0uMiApLpIelU97b144d9e",
+                "type": "string"
+            }
+        ]
+    },
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "b2cdf9ec-edd9-46c7-96a0-61a8bf27a250",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "76df30ec-1dfe-45fe-8d12-d8bc6919764c",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "id": "8f8c4e28-0434-4338-b102-b755cfa95831",
+            "key": "baseUrl",
+            "value": "http://galata-egitim.delta-course.net/api/student/lists?from=10.10.2020&to=1649721600&per_page=15&student_lists=422",
+            "type": "string"
+        }
+    ]
+}
