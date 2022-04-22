@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Delta Course Automation Documentation',
+  title: 'ONLINEKURUM API Documentation',
   tagline: 'delta course, delta kurs otomasyonu, kurs otomasyonu',
-  url: 'https://www.onlinekurum.com/products/',
+  url: 'https://www.onlinekurum.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'onlinekurum', // Usually your GitHub org/user name.
-  projectName: 'delta_course', // Usually your repo name.
+  organizationName: 'selcukmart', // Usually your GitHub org/user name.
+  projectName: 'delta-course-docs', // Usually your repo name.
 
   presets: [
     [
@@ -43,10 +43,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'ONLINEKURUM API Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'onlinekurum.com logo',
+          src: 'img/logo.png',
         },
         items: [
           {
