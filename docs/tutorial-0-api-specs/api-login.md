@@ -25,8 +25,10 @@ Credentials are: `user` and `secret`
 **_Logged in;_**
 ```json
 {
-"state": "true",
-"bearer": "AB1bl7iPaeN7fSUD94b48a00iN1Fq7H9uZkOkE94b48a00EqBY33d2M8xVl7nFEM8JXoapsV37e15"
+  "state": "true",
+  "bearer": "fb6f196e9e17d2b756cae6d63fae3394",
+  "refresh_token": "ac388e0e42589faee4e80f84461f495f",
+  "expires": 7200
 }
 ```
 

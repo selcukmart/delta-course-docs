@@ -16,9 +16,9 @@ sidebar_position: 1
 
 `/api/student/lists?from=10.10.2020 00:00&to=10.10.2021 23:59&per_page=15&current_page=1`
 
-`from`: register, examples: `10.10.2020 00:00` or `10.10.2020` (**required**),
+`from`: register date, examples: `10.10.2020 00:00` or `10.10.2020` (**required**),
 
-`to`: register, examples: `10.10.2021 23:59` or `10.10.2021`  (**required**),
+`to`: register date, examples: `10.10.2021 23:59` or `10.10.2021`  (**required**),
 
 `per_page`: min 1 max 25 (optional default=10),
 

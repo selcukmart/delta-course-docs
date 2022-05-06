@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="ONLINEKURUM DOCS is to use easy our systems! <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
