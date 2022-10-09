@@ -46,7 +46,7 @@ const config = {
         title: 'ONLINEKURUM API Docs',
         logo: {
           alt: 'onlinekurum.com logo',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {

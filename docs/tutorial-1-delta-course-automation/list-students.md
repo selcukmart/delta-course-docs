@@ -28,7 +28,7 @@ sidebar_position: 1
 
 ### Response
 
-**_Successfully result;_**
+**_Successful result;_**
 ```json
 {
   "state": "true",

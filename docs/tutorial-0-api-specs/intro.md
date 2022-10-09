@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # API Specifications
 
-API is based on OpenAPI v3.
-
 Every request **MUST** return `state` key. And if `state` is `"true"`, result is **true**.
 
 Example:
